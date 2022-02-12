@@ -7,10 +7,10 @@
   <body>
     <h1>Activity 1:</h1>
     <h1 style= "color:rgb(55, 241, 237)"> &#9731; Coventry's Cyber Hub &copy;<h1>
-  <h4>  <span> <a href="index.html"> Home </a> </span>
-    <span> <a href="about.html"> Who are we? </a> </span>
-    <span> <a href="test.html"> Testemonials </a> </span>
-    <span> <a href="ser.html"> Services offers </a> </span> </h4>
+  <h4>  <span> <a href="index.html" title="go home page"> Home </a> </span>
+    <span> <a href="about.html" title="know the team"> Who are we? </a> </span>
+    <span> <a href="test.html" title="Hear what people thinks about us"> Testimonials </a> </span>
+    <span> <a href="ser.html" title="What do we provide"> Services offers </a> </span> </h4>
     <hr>
     <h1>Welcome to the cyber hub main page!</h1>
     <h4>Have a look on our teaser</h4>
