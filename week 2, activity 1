@@ -2,11 +2,22 @@
 <html>
 <head>
   <title>lab 2 Activity 1</title>
+  <style media="screen">
+    /* CSS */
+    .head {
+      color:rgb(108, 2, 95);
+      background-color: pink;
+    }
+    .parent > li{
+      color: red
+
+    }
+  </style>
 </head>
 <body>
 <a href="#bottom"><h3>Go to the HTML logo</h3> </a>
 <hr>
-<h1 style="color:rgb(108, 2, 95); background-color: pink">Welcome to my first website</h1>
+<h1 class="head">Welcome to my first website</h1>
 <a href="https://google.com">Go to google</a>
 <hr>
 <br>
@@ -15,9 +26,10 @@
 <ol reversed>
   <li> Javascript </li>
   <u> <i> Some of JS frameworks (without order): </i></u>
-  <ul> <li style="color:red">Angular.js</li>
-       <li style="color:red">Vue.js</li>
-       <li style="color:red">React.js</li> </ul>
+  <ul class="parent">
+    <li >Angular.js</li>
+       <li>Vue.js</li>
+       <li>React.js</li> </ul>
   <li>CSS</li>
   <u> <i> Some of CSS famous frameworks (without order): </i></u>
   <ul> <li> Materialize CSS </li>
@@ -27,8 +39,8 @@
   <li> Bootstrap </li>
   <li> Sass/Less </li> </ul>
   <li> HTML
-  
-  
+
+
 </ol>
 
 </body>
